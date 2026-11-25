@@ -57,7 +57,8 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/js/weapons/**/*.js"
+      "src/js/**/*.js",
+      "!src/js/**/__tests__/**"
     ],
     "coverageThreshold": {
       "global": {

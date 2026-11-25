@@ -34,4 +34,12 @@ export default [
       },
     },
   },
+  {
+    // Конфиги инструментов используют только devDependencies
+    files: ['*.config.js', '*.config.mjs'],
+    rules: {
+      'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+      'import/no-unresolved': 'off',
+    },
+  },
 ];
