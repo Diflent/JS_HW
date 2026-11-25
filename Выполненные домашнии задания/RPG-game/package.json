@@ -1,0 +1,42 @@
+{
+  "name": "rpg-game",
+  "version": "1.0.0",
+  "description": "Браузерная RPG: персонажи, оружие и королевская битва на линейном поле",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diflent/JS_HW.git"
+  },
+  "keywords": [
+    "rpg",
+    "game",
+    "javascript",
+    "babel",
+    "eslint"
+  ],
+  "author": "Diflent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diflent/JS_HW/issues"
+  },
+  "homepage": "https://github.com/Diflent/JS_HW#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.4.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
