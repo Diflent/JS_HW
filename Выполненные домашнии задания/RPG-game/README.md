@@ -10,6 +10,8 @@ npm start            # dev-сервер webpack на http://localhost:9000
 npm run build        # production-сборка webpack в dist
 npm run show:dist    # сборка и запуск HTTP-сервера для dist на http://localhost:8080
 npm run lint         # проверка кода ESLint (airbnb-base)
+npm test             # unit-тесты Jest
+npm run coverage     # тесты с отчётом о покрытии (порог — 70% строк)
 ```
 
 ## Структура
