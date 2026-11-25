@@ -5,7 +5,17 @@
 ## Команды
 
 ```bash
-npm install     # установка зависимостей
-npm run build   # сборка Babel: src -> dist
-npm run lint    # проверка кода ESLint (airbnb-base)
+npm install          # установка зависимостей
+npm start            # dev-сервер webpack на http://localhost:9000
+npm run build        # production-сборка webpack в dist
+npm run show:dist    # сборка и запуск HTTP-сервера для dist на http://localhost:8080
+npm run lint         # проверка кода ESLint (airbnb-base)
 ```
+
+## Структура
+
+- `src/index.js` — точка входа webpack, запускает игру
+- `src/js/game.js` — модуль игры, функция `play`
+- `src/js/weapons/` — классы оружия, по модулю на класс
+- `src/js/players/` — классы персонажей, по модулю на класс
+- `src/css/style.css`, `src/index.html` — стили и шаблон для HtmlWebpackPlugin
